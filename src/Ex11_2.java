@@ -26,5 +26,4 @@ public class Ex11_2 {
 			System.out.println(q.poll()); //Queue에서 요소 하나를 꺼냄
 		}
 	}
-
 }
