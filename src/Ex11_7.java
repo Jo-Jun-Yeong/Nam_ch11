@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class Ex11_7 {
+class Ex11_7 {
 
 	public static void main(String[] args) {
 		String [] arr = {"cat", "Dog", "lion", "tiger"};
@@ -17,7 +17,8 @@ public class Ex11_7 {
 
 } //main class
 
-public class Descending implements Comparator{
+class Descending implements Comparator{
+	
 	public int compar(Object o1, Object o2) {
 		if(o1 instanceof Comparable && o2 instanceof Comparable) {
 			Comparable c1 = (Comparable)o1;
