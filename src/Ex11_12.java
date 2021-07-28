@@ -42,7 +42,7 @@ public class Ex11_12 {
 				setKyo.add(tmp);
 		}//while
 		System.out.println("A 교 B : "+setKyo);
-		
+//
 //		교집합 간단히
 //		setA.retainAll(setB);
 //		System.out.println("A 교간 B : "+setA);
