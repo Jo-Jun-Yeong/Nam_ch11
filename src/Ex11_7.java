@@ -28,4 +28,10 @@ class Descending implements Comparator{
 		
 		return -1;
 	}//comp
+
+	@Override
+	public int compare(Object o1, Object o2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 } //Descending class
