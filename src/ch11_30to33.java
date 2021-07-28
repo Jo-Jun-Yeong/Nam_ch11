@@ -1,4 +1,4 @@
-/* *11_30 Comparator와 Comparable
+/* #11_30 Comparator와 Comparable
  *  - 객체 정렬에 필요한 메서드(정렬기 제공)를 정의한 인터페이스
  *   정렬(sort()) : 두 대상을 비교하여 자리 바꾸기를 반복(1.대상, 2.조건)
  *   	static void sort(Object o) //객체 배열에 저장된 객체가 구현한 Comparator에의해 정렬
