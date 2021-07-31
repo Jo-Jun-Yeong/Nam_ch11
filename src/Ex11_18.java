@@ -19,10 +19,28 @@ public class Ex11_18 {
 		while(it.hasNext()) {
 			Map.Entry  entry= (Map.Entry)it.next(); 
 			int value = (int)entry.getValue();
-			System.out.println(entry.getKey() + " : " + printBar());
+			
+//			for(int i =0; i<= value; i++) {
+//				System.out.print("*");
+//			}
+			
+			
+			
+			System.out.print(entry.getKey() + " : "  	);
+			printBar("*", value);
 		}
 		
 	}//main()
 
-
+	static void printBar(String s, int j) {
+		
+		for(int i =0; i< j; i++) {
+			
+			System.out.print(s);
+		}
+		
+		System.out.println(j);
+		
+		
+	}//printBar()
 }
