@@ -2,6 +2,7 @@ import java.util.*;
 public class Ex11_18 {
 
 	public static void main(String[] args) {
+		String s;
 		String [] data = {"A","K","A","K","D","K","A","K","K","K","Z","D"};
 		
 		HashMap map = new HashMap();
@@ -26,21 +27,19 @@ public class Ex11_18 {
 			
 			
 			
-			System.out.print(entry.getKey() + " : "  	);
-			printBar("*", value);
+			System.out.println(entry.getKey() + " : " +printBar('*', value) + "  " + value );
+			
 		}
 		
 	}//main()
 
-	static void printBar(String s, int j) {
-		
-		for(int i =0; i< j; i++) {
-			
-			System.out.print(s);
-		}
-		
-		System.out.println(j);
-		
-		
-	}//printBar()
+	public static String printBar(char ch, int value) { 
+		char[] bar = new char[value]; 
+
+		for(int i=0; i < bar.length; i++) { 
+			bar[i] = ch; 
+		} 
+
+		return new String(bar); 	// String(char[] chArr)
+	}
 }
