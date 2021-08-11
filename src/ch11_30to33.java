@@ -7,9 +7,11 @@
  * 		Comparable : 기본 정렬기준을 구현하는데 이용
  * 		Comparator : 기본 정렬기준 외에 다른 기준으로 정렬고자 할 때 이용
  * 			
- * 		*같으면 0
+ * 		*
+ * 		 같으면 0
  * 		 왼쪽이 크면 1
- * 		 오른쪽이 크면 -1 를 반환*
+ * 		 오른쪽이 크면 -1 를 반환
+ * 		*
  * 
  * 		public interface Comparator{
  * 			int compare(Object o1, Object o2)	//o1, o2두 객체를 비교하라는 뜻
